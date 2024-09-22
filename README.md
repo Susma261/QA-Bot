@@ -13,7 +13,7 @@ SentenceTransformers: For embedding document text and user queries.
 
 ## Setup Instructions
 ### Clone the Repository:
-git clone https://github.com/Susma261/QA-Bot/tree/main
+git clone https://github.com/Susma261/QA-Bot
 cd qa-bot
 
 ### Create a Virtual Environment
@@ -44,7 +44,7 @@ PyPDF2: For extracting text from uploaded PDF documents.
 
 ## Setup Instructions
 ### Clone the Repository
-git clone https://github.com/Susma261/QA-Bot/tree/main
+git clone https://github.com/Susma261/QA-Bot
 cd qa-bot
 
 ### Create a Virtual Environment

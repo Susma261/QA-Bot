@@ -27,6 +27,48 @@ pip install -r requirements.txt
 Run the Code: Execute the script that implements the RAG model.
 Test Queries: Use several test queries to evaluate the model's performance.
 
+# Part 2: Interactive QA Bot Interface
+This section details the development of an interactive interface for the QA bot from Part 1. Users can upload documents and query the bot in real time.
+
+## Features
+Document Upload: Users can upload PDF documents for analysis.
+Real-Time Question Answering: Users can ask questions and receive immediate answers based on the uploaded document.
+Contextual Responses: Display retrieved document segments alongside generated answers.
+
+## Technologies
+Streamlit: Framework for building the web interface.
+PyPDF2: For extracting text from uploaded PDF documents.
+
+## Setup Instructions
+### Clone the Repository
+git clone https://github.com/yourusername/qa-bot.git
+cd qa-bot
+
+### Create a Virtual Environment
+python -m venv venv
+source venv/bin/activate  
+
+### Install Dependencies: Ensure requirements.txt includes all necessary libraries. Run:
+pip install -r requirements.txt
+
+### streamlit run app.py
+streamlit run app.py
+
+## Docker Instructions
+### Build the Docker Image:
+docker build -t qa-bot .
+
+### Run the Docker Container:
+docker run -p 8501:8501 qa-bot
+
+## Usage
+Open your browser and navigate to http://localhost:8501.
+Upload a PDF document using the provided file uploader.
+After the document is uploaded, view the extracted text.
+Enter your question related to the document in the text input field.
+Click the submit button to see the generated answer and retrieved segments.
+
+
 
 
 

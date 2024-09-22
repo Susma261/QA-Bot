@@ -27,6 +27,9 @@ pip install -r requirements.txt
 Run the Code: Execute the script that implements the RAG model.
 Test Queries: Use several test queries to evaluate the model's performance.
 
+## Colab Link: 
+https://colab.research.google.com/drive/1oZlIQyVxohm3W37PbTSoa-AJNPefX5ML?usp=sharing
+
 # Part 2: Interactive QA Bot Interface
 This section details the development of an interactive interface for the QA bot from Part 1. Users can upload documents and query the bot in real time.
 

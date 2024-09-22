@@ -68,6 +68,11 @@ After the document is uploaded, view the extracted text.
 Enter your question related to the document in the text input field.
 Click the submit button to see the generated answer and retrieved segments.
 
+## Conclusion
+The development of the RAG-based QA bot and its interactive interface successfully addresses the need for a system that can efficiently retrieve and generate answers from documents. By leveraging Pinecone for storage and Cohere for generation, the bot offers coherent, contextually relevant responses. The interactive interface enhances user experience by allowing document uploads and real-time queries. This project demonstrates the potential of combining retrieval and generation techniques in AI-powered applications.
+
+
+
 
 
 
